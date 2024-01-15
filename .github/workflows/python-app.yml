@@ -11,7 +11,8 @@ permissions:
 
 jobs:
   build:
-
+    env:
+        pyv: 3.10
     runs-on: ubuntu-latest
 
     steps:
