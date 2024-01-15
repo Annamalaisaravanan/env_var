@@ -1,4 +1,4 @@
 import os
 
 num = os.getenv('number')
-print(num)
+print(num*2)
