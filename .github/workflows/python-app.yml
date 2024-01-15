@@ -13,6 +13,7 @@ jobs:
   build:
     env:
         pyv: 3.10
+        number: ${{secrets.MYSECRET}}
     runs-on: ubuntu-latest
 
     steps:

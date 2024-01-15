@@ -1,4 +1,4 @@
 import os
 
-v = os.getenv('pyv')
-print(v)
+num = os.getenv('number')
+print(num)
